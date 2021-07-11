@@ -1,4 +1,4 @@
-# There are many ways to customize your shell:
+# TODO:
 # - Set variables
 # - Create aliases
 # - Customize the prompt
@@ -93,5 +93,11 @@ alias w="nvim -c ':VimwikiIndex'"
 alias wi="nvim -c ':VimwikiDiaryIndex'"
 alias i="nvim -c ':VimwikiDiaryIndex'"
 alias n="nvim -c ':VimwikiMakeDiaryNote'"
+
+# taskwarrior
+alias  t="task"
+
+# yadm
+alias y='yadm'
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
