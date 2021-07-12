@@ -100,4 +100,7 @@ alias  t="task"
 # yadm
 alias y='yadm'
 
+# python
+alias py='python3'
+
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
