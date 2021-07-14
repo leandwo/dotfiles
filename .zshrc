@@ -66,7 +66,9 @@ alias spacebarrc="nvim ~/.config/spacebar/spacebarrc"
 
 # folders
 alias dev="cd ~/m/dev/"
-# alias config="cd ~/.config/"
+alias config="cd ~/.config/"
+alias temp="cd ~/tmp/"
+alias tmp="cd ~/tmp/"
 
 # restart brew services
 alias restart_yabai="brew services restart yabai"
@@ -102,5 +104,16 @@ alias y='yadm'
 
 # python
 alias py='python3'
+alias py2='python'
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/leosol/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/leosol/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/leosol/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/leosol/google-cloud-sdk/completion.zsh.inc'; fi
