@@ -70,6 +70,11 @@ alias config="cd ~/.config/"
 alias temp="cd ~/tmp/"
 alias tmp="cd ~/tmp/"
 
+# work folders
+alias scs-old="cd ~/m/dev/scs-old"
+alias scs-api="cd ~/m/dev/scs-api"
+alias scs-www="cd ~/m/dev/scs-www"
+
 # restart brew services
 alias restart_yabai="brew services restart yabai"
 alias ry="restart_yabai"
@@ -96,6 +101,11 @@ alias wi="nvim -c ':VimwikiDiaryIndex'"
 alias i="nvim -c ':VimwikiDiaryIndex'"
 alias n="nvim -c ':VimwikiMakeDiaryNote'"
 
+# calendar.vim
+alias calendar="nvim -c ':Calendar'"
+alias cal="calendar"
+alias c="calendar"
+
 # taskwarrior
 alias  t="task"
 
@@ -117,3 +127,5 @@ if [ -f '/Users/leosol/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/leosol/g
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/leosol/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/leosol/google-cloud-sdk/completion.zsh.inc'; fi
+
+export EDITOR=/usr/local/bin/nvim
